@@ -1,6 +1,7 @@
 import pygame, sys, random, math, time
 from pygame.locals import *
 
+# By Hamdy
 pygame.init()
 
 game_state = 0
@@ -87,7 +88,7 @@ def music():
 
 def main_menu():
 	global press_y
-	credits = credit_font.render("©GOODGIS 2022", True, (0, 0, 0))
+	credits = credit_font.render("©GOTOSKLASH 2023", True, (0, 0, 0))
 	credits_rect = credits.get_rect(center=(WIDTH//2, 620))
 	SCREEN.blit(credits, credits_rect)
 
